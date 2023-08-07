@@ -1,0 +1,31 @@
+mkdir "Mahmoud Mohammed"
+cd Mahmoud\ Mohammed
+mkdir Documents
+cd Documents
+touch file1.txt file2.txt file3.txt
+ls
+cd ..
+touch .hidden_file
+ls -a
+cd -
+nano file1.txt
+cat file1.txt
+mkdir "-" 
+ls
+cd ./-
+cd ../../
+ls
+cp -r Documents My_Documents
+ls
+ls -a 
+cat .hidden_file
+nano .hidden_file
+cat .hidden_file
+mv ./Documents/file2.txt . && mv ./Documents/file3.txt .
+ls 
+cd ~
+rm -r Mahmoud\ Mohammed
+ls
+
+
+
