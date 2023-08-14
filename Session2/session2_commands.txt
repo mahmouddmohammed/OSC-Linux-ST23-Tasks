@@ -1,0 +1,36 @@
+unzip Updated-Task-02.zip
+ls
+cd Updated-Task-02
+ls
+cat README.txt
+ls -a
+tar xf .level-1.tar
+ls -a
+cd .level-1
+cat README.txt
+ls
+file level-2
+level-2 level-2.tar.gz 
+ls
+tar xf level-2.tar.gz
+ls
+cd level-2
+cat README.txt
+find . -name level-3
+file ./gBT5u0vLT5/level-3
+mv ./gBT5u0vLT5/level-3 ./gBT5u0vLT5/level-3.bz2 
+bunzip2 -k ./gBT5u0vLT5/level-3.bz2
+cd gBT5u0vLT5
+ls
+file level-3
+mv level-3 level-3.tar 
+tar xf level-3.tar
+ls
+cd level-3
+cat README.txt
+ls -lai 
+file WfUKyzFeEv
+cat WfUKyzFeEv
+find . -size 73c
+file ./m7lRDpRTUJ/xVMvVOKNW5
+cat ./m7lRDpRTUJ/xVMvVOKNW5
