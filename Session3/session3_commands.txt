@@ -1,0 +1,34 @@
+sudo useradd -m  osc   #option -m to make home directory
+sudo passwd osc
+sudo groupadd osc_group
+sudo usermod -aG osc_group osc
+sudo usermod -aG sudo osc  # to add osc user to sudoers group 
+su - osc
+bash
+whoami
+pwd
+mkdir permission_practice
+ls
+cd permission_practice/
+touch public_file.txt private_file.txt executable_script.sh
+ls -l
+chmod 666 public_file.txt 
+chmod 600 private_file.txt 
+chmod 750 executable_script.sh
+ls -l
+chown kali private_file.txt
+sudo chown kali private_file.txt
+sudo chgrp osc_group private_file.txt 
+ls -l
+sleep 1000 &
+kill 51377
+ps
+vim
+ps
+killall -9 vim
+ps
+sudo apt-get update
+sudo apt-get install neofetch
+neofetch
+sudo apt-get remove neofetch
+
